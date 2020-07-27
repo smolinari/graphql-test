@@ -1,0 +1,27 @@
+{
+  "name": "gql-modules-test",
+  "version": "0.0.1",
+  "description": "A test to build an example with",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "ts-node-dev --respawn --transpile-only -r tsconfig-paths/register src/index.ts"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@graphql-modules/core": "^0.7.17",
+    "@graphql-modules/di": "^0.7.17",
+    "apollo-server": "^2.16.0",
+    "class-transformer": "^0.2.3",
+    "class-validator": "^0.12.2",
+    "graphql": "^15.3.0",
+    "reflect-metadata": "^0.1.13",
+    "ts-node-dev": "^1.0.0-pre.52",
+    "type-graphql": "^1.0.0-rc.3"
+  },
+  "devDependencies": {
+    "tsconfig-paths": "^3.9.0",
+    "typescript": "^3.9.7"
+  }
+}
